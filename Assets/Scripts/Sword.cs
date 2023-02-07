@@ -5,32 +5,37 @@ using UnityEngine;
 public class Sword : MonoBehaviour
 {
 [SerializeField] private Transform _blade;
-//[SerializeField] private Transform _guard;
-private Vector3 _initialScale;
+[SerializeField] private Rigidbody _bladeRb;
+[SerializeField] float _bladeLenght = 1.0f;
+
+    //[SerializeField] private Transform _guard;
+    private Vector3 _initialScale;
 private Vector3 _targetScale;
 private float _animationDuration = 0.1f;
 private float _animationTime = 0f;
 private bool _isAnimating = false;
-private Color _saberColor = Color.red;
-private float _bladeLenght = 0.3f;
+//private Color _saberColor = Color.red;
+//private Rigidbody _saber;
 [SerializeField] private AudioSource _saberDraw;
 [SerializeField] private AudioSource _saberSheathe;
 [SerializeField] private AudioSource _saberActive;
+//[SerializeField] private AudioSource _saberAttack;
+//[SerializeField] private AudioSource _saberCollision;
 void Start()
-{
-    //mute the audio sources
-    _saberDraw.mute = true;
+{       
+     //_saberDraw.mute = true;
+//_saber = GetComponent<Rigidbody>();
     _initialScale = _blade.localScale;
     _targetScale = _initialScale;
-    _targetScale.y = _bladeLenght;
-    _blade.GetComponent<Renderer>().material.color = _saberColor;
+    _targetScale.y = _bladeLenght;    
 }
 
 
 void Update()
 {
 
-    if (Input.GetMouseButtonDown(0))
+Debug.Log(_bladeRb.velocity);
+    if (Input.GetMouseButtonDown (0) || Input.GetButtonUp("Fire1"))
     {
         if (!_isAnimating  )
         {
