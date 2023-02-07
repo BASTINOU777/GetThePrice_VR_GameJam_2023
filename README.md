@@ -9,7 +9,7 @@ PAYING THE PRICE
 Objectif :
 - Créer le jeu le plus satisfaisant imaginable 
 - Réaliser ce projet à 4 , en s'organisant en mode agile, en définissant clairement le contenu des étapes, les durées estimées et les tâches de chacun(e)s
-- Utiliser les outils de gestion de projet : Notion , discord, google docs
+- Utiliser les outils de gestion de projet : Notion , Trello,  discord, google docs
 - Créer des prefabs sur Blender 
 - Utiliser Substance ou Creative Cloud
 - Utilisation des events Unity et C#
