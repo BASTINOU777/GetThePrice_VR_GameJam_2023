@@ -1,8 +1,7 @@
 # GetThePrice_VR_GameJam_2023
 VR video game project for the JUICE JAM : https://itch.io/jam/gdb-juice-jam/entries
 ## Objectif : 
-Participer à la JUICE JAM 2023 en créant un jeu VR.
-
+Participer à la JUICE JAM 2023 en créant un jeu VR en 5 jours. 
 
 ## Your theme this year is:
 PAYING THE PRICE 
@@ -16,15 +15,14 @@ Objectif :
 - Utilisation des events Unity et C#
 
 Le prototype contiendra au minimum :
+- Créer une scéne pour le menu 
+- Pouvoir aller démarer une scène à partir de la scène Menu   
 - Concevoir une arène un player contre un Bot
-- Faire une scène par arène 
-- Création des sons et brutages
-- Augmenter le nombre d'arènes   
-- Le player Déplacement d'une arène par téléportation
-– Le bot :Création d'une sphère tirant un rayon laser aléatoire (in construction)
-– À chaque fin de tour: ( reste à déterminer) 
+- Création des sons et brutages  
+- Le player possède une arme , un sabre laser , il peut détrurire les boules et l'ennemy.  
+– L'ennemy peut tirer des boules sur le player
 -
 
 Fonctionnement final :
-( reste à déterminer) 
-
+- Augmenter le nombre d'arènes
+- Faire une scène par arène 
