@@ -17,7 +17,7 @@ public class Ennemy : MonoBehaviour
     //[SerializeField] GameObject target;
     [SerializeField]
     float vdeplacement = 0.4f, PasDeplacementX = 0.1f, PasDeplacementY = 0.1f, PasDeplacementZ = 0.1f,
-        rayonmini = 20f, rayonmaxi = 40f, tpsPauseMini = 0.2f, tpsPauseMaxi = 1.5f, vitesseBoule = 100f;
+        rayonmini = 20f, rayonmaxi = 40f, tpsPauseMini = 0.2f, tpsPauseMaxi = 1.5f, vitesseBoule = 5f;
 
     float Dymin, Dymax, Dxzmin, Dxyzmax, XDepart, YDepart, ZDepart;
     // maxX = 10f, maxY = 5f, maxZ = 10f, minY = 1.5f, minZ = -10f, minX = -10f,  Dymax = 4f, Dzmin = -10f, Dzmax = 10f, 
@@ -150,7 +150,7 @@ public class Ennemy : MonoBehaviour
 
         boule.GetComponent<Rigidbody>().velocity = sourceLaser.transform.TransformDirection(Vector3.forward * vitesseBoule);// ennemy.transform.TransformDirection(Vector3.forward * (force));
 
-        Destroy(boule, 1);
+        Destroy(boule, 10);
 
         //Debug.Log("Position : " + ProjectilePosition.transform.position);
         //balle.GetComponent<Rigidbody>().AddForce(ProjectilePosition.transform.forward);// = force;
