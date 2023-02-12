@@ -35,7 +35,7 @@ void Update()
 {
 
 Debug.Log(_bladeRb.velocity);
-    if (Input.GetMouseButtonDown (0) || Input.GetButtonUp("Fire1"))
+    if (Input.GetButtonUp("Fire1"))
     {
         if (!_isAnimating  )
         {
