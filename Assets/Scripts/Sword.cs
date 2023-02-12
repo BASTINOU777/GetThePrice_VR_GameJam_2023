@@ -13,7 +13,7 @@ public class Sword : MonoBehaviour
 private Vector3 _targetScale;
 private float _animationDuration = 0.1f;
 private float _animationTime = 0f;
-private bool _isAnimating = false;
+private bool _isAnimating = true;
 //private Color _saberColor = Color.red;
 //private Rigidbody _saber;
 [SerializeField] private AudioSource _saberDraw;
