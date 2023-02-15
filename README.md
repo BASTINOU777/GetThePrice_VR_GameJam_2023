@@ -1,5 +1,6 @@
-# Simplon_Roll_A_Ball
-Reprise du premier projet Roll_A_Ball Objectif : apprentissage de la persistance des données dans unity via PlayerPrefs et ScriptableObject
+# Projet Roll A Ball for Android Platform 
+Projet qui a pour Objectif l' apprentissage de la persistance des données dans unity via PlayerPrefs et ScriptableObject.
+Le jeu doit étre utilisable sur mobile android. 
 
 ## ScriptableObject :
 Utilisation des scriptable object pour faire apparaitre des groupes de murs lorsque on touche une target
