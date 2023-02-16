@@ -1,15 +1,40 @@
-# Projet Roll A Ball for Android Platform 
-Projet qui a pour Objectif l' apprentissage de la persistance des données dans unity via PlayerPrefs et ScriptableObject.
-Le jeu doit étre utilisable sur mobile android. 
+# GetThePrice_VR_GameJam_2023
+VR video game project for the JUICE JAM : https://itch.io/jam/gdb-juice-jam/entries
+## Objectif : 
+Participer à la JUICE JAM 2023 en créant un jeu VR en 5 jours. 
 
-## ScriptableObject :
-Utilisation des scriptable object pour faire apparaitre des groupes de murs lorsque on touche une target
-dans le deuxième niveau nous allons utiliser un autre scriptableobject avec une configuration plus "difficile"
+## Your theme this year is:
+PAYING THE PRICE
+## The Name Game: GET THE PRICE !
 
-## PlayersPrefs :
-Utilisation des PlayerPrefs 
+Objectif :
+- Créer le jeu le plus satisfaisant imaginable 
+- Réaliser ce projet à 5 , en s'organisant en mode agile, en définissant clairement le contenu des étapes, les durées estimées et les tâches de chacun(e)s
+- Utiliser les outils de gestion de projet : Notion , Trello,  discord, google docs
+- Créer des prefabs sur Blender 
+- Utiliser Substance ou Creative Cloud
+- Utilisation des events Unity et C#
+- Intégration graphique; ligth , skybox , textures, materials....
 
-## ScreenShot in construction :
-![Capture d'écran_20230215_163321](https://user-images.githubusercontent.com/101596380/219078197-f6ecf6f8-3ebe-4f97-ac91-28e4e358d54a.png)
+Le prototype contiendra au minimum :
+- Créer une scéne pour le menu ( Station Gaz )
+- Pouvoir aller démarer une arène ( scène 1) à partir du Menu   
+- Concevoir une arène avec un game play Juicy
+- Création des sons et brutages  
+
+Le game play: 
+- Le player possède une arme , un sabre laser par default  
+– L'ennemi suit et tire sur le player
+- Le player peut détruire l'ennemi avec son arme 
+- Le player peut esquiver les attaques de l'ennemi 
+- Le player peut détruire les balles de l'ennemi
+
+Fonctionnement final et reste à faire :
+- Augmenter le nombre d'arènes
+- Le player pourra loot des armes et équipements dans la scène du menu
+- Améliorer le contenu graphique et le gameplay
+
+# Screen Shot en 4k de la première arène !
+![ScreenShot_V1_JapaneseArea](https://user-images.githubusercontent.com/101596380/218307187-01b3533a-e350-4eb2-b9ae-2bd307f817b1.jpg)
 
 
